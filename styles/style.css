@@ -1,0 +1,78 @@
+.masthead {
+    text-align: center;
+    background-image: url("../../../assets/background.jpg");
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 100vh;
+    padding-top: 10rem;
+    padding-bottom: 12.5rem;
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      align-items: center;
+    }
+  
+    h4 {
+      font-size: 72px;
+      font-weight: 700;
+      color: #fff;
+      text-transform: uppercase;
+    }
+  
+    h5 {
+      font-size: 28px;
+      font-weight: 400;
+      color: #fff;
+    }
+  
+    button {
+      font-size: 20px;
+      font-weight: 500;
+      color: #fff;
+      background-color: #FF9400;
+      border: none;
+      width: 280px;
+      height: 48px;
+      border-radius: 50px;
+  
+      &:hover {
+        background-color: #dd8100;
+        transition: 0.3s;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+  
+    .container {
+      gap: 12px!important
+    }
+  
+    h4 {
+      font-size: 60px!important
+    }
+  
+    h5 {
+      font-size: 20px!important
+    }
+  
+    button {
+      font-size: 16px!important;
+      width: 260px!important;
+      height: 40px!important
+    }
+  }
+  
+  @media screen and (max-width: 520px) {
+  
+    h4 {
+      font-size: 28px !important;
+    }
+  
+    h5 {
+      font-size: 16px !important;
+    }
+  }
