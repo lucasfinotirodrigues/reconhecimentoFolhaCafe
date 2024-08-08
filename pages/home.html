@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../styles/style.css">
+    <!--Scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+    <script src="../scripts/script.js"></script>
 </head>
+
 <body>
-    <div class="container">
-        <h4>Explorando o Mundo das Criptomoedas</h4>
-        <h5>Adentre esse fascinante universo e compreenda melhor os aspectos-chave desse mercado em rápida expansão</h5>
-        <button>Saber mais</button>
-    </div>
-    </div>
+
+    <div>Teachable Machine Image Model</div>
+    <button type="button" onclick="init()">Start</button>
+    <div id="webcam-container"></div>
+    <div id="label-container"></div>
 </body>
+
 </html>
